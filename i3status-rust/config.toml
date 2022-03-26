@@ -17,6 +17,7 @@ warning = 20.0
 alert = 10.0
 
 [[block]]
+if_command = "mount|grep -i home"
 block = "disk_space"
 path = "/home"
 alias = "/home"
@@ -35,6 +36,7 @@ format_swap = "{swap_used_percents}"
 [[block]]
 block = "cpu"
 interval = 1
+format = "{barchart} {utilization} {frequency}"
 
 [[block]]
 block = "load"
@@ -50,6 +52,7 @@ chip = "*-isa-*"
 inputs = ["CPUTIN", "SYSTIN"]
 
 [[block]]
+if_command = "lspci|grep -i nvidia"
 block = "nvidia_gpu"
 label = "RTX 3070TI"
 show_power_draw = true
@@ -62,12 +65,6 @@ block = "sound"
 block = "music"
 player = "spotify"
 buttons = ["play", "next"]
-
-[[block]]
-block = "networkmanager"
-on_click = "alacritty -e nmtui"
-interface_name_exclude = ["br\\-[0-9a-f]{12}", "docker\\d+"]
-interface_name_include = []
 
 [[block]]
 block = "external_ip"
