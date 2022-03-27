@@ -261,6 +261,9 @@ bindsym $mod+Shift+s exec --no-startup-id pkill redshift || (redshift -l 44:26 -
 #NetworkManager
 exec --no-startup-id nm-applet
 
+#Kdeconnect
+exec --no-startup-id /usr/bin/kdeconnect-app
+
 #TouchOneClick xinput list && xinput list-props 12|grep Tapping && xinput set-prop 12 342 1
 #exec xinput set-prop 12 342 1
 exec /home/darthv/scripts/i3/touchpad_tapping.sh
