@@ -3,12 +3,14 @@ arkade-bin
 google-chrome
 grapejuice-git
 hyprland-git
+itch
 jdownloader2
 libretro-fuse-git
 maltego
 mopidy-mpd
 mopidy-spotify
 nerd-fonts-hack
+networkmanager-wireguard-git
 retrovirtualmachine
 rpi-imager
 sherlock-git
