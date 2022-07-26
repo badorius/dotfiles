@@ -5,6 +5,8 @@ android-tools
 ansible
 ansible-core
 arandr
+arc-gtk-theme
+arc-solid-gtk-theme
 atool
 atop
 autoconf
@@ -13,6 +15,7 @@ awesome-terminal-fonts
 aws-cli
 baobab
 base
+bashtop
 bettercap
 bind
 binutils
@@ -21,6 +24,7 @@ blueberry
 bluez-utils
 bridge-utils
 btop
+bully
 cabextract
 calc
 calibre
@@ -28,12 +32,12 @@ catdoc
 cheese
 chromium
 cool-retro-term
+cowpatty
 cpio
 cups
 cups-pdf
 dconf-editor
 devhelp
-discord
 dmenu
 dmidecode
 dnsmasq
@@ -136,6 +140,8 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 gzip
+hashcat
+hcxdumptool
 hdparm
 helm
 hitori
@@ -177,12 +183,15 @@ linux-zen-headers
 lutris
 lynx
 m4
+macchanger
 make
 malcontent
 man-db
 mediainfo
 metasploit
 mlocate
+mopidy
+mpd
 mtools
 mupdf
 mutter
@@ -225,6 +234,7 @@ python2
 qemu-desktop
 quadrapassel
 ranger
+reaver
 reflector
 retroarch
 retroarch-assets-ozone
@@ -285,10 +295,12 @@ w3m
 wget
 which
 whois
+wifite
 wine
 wireguard-tools
 wireless_tools
 wireplumber
+wireshark-cli
 wofi
 xdg-user-dirs-gtk
 xf86-input-wacom
