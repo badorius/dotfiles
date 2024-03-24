@@ -1,0 +1,52 @@
+---
+
+- name: Copy my dot files
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: copy misc files from home directory
+      copy:
+        dest: "~/.dotfiles"
+        archive: "~/.dotfiles.tar.gz"
+   
+      # misc files from home directory
+        src: "~/.bashrc"
+        src: "~/.vimrc"
+        src: "~/.tmux.conf"
+        src: "~/.zshrc"
+        src: "~/.Xresources"
+        src: "~/.fonts.conf"
+  
+    # .config dir
+        src: "~/.config/ranger"
+        subdir: ".config"
+        src: "~/.config/polybar"
+        subdir: ".config"
+        src: "~/.config/alacritty"
+        subdir: ".config"
+        src: "~/.config/i3"
+        subdir: ".config"
+        src: "~/.config/neofetch"
+        subdir: ".config"
+        src: "~/.config/kitty"
+        subdir: ".config"
+        src: "~/.config/i3status-rust"
+        subdir: ".config"
+        src: "~/.config/picom"
+        subdir: ".config"
+        src: "~/.config/waybar"
+        subdir: ".config"
+        src: "~/.config/powerline"
+        subdir: ".config"
+        src: "~/.config/rofi"
+        subdir: ".config"
+        src: "~/.config/hypr"
+        subdir: ".config"
+
+    # .local/bin dir
+        src: "~/.local/bin/fuzzy_lock.sh"
+        subdir: ".local/bin/"
+
+    # system stuff
+        src: "/etc/i3status.conf"
+        subdir: "etc"
