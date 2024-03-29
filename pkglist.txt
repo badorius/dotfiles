@@ -107,6 +107,8 @@ gvfs-nfs
 gvfs-smb
 hitori
 htop
+i3-wm
+i3lock
 i3status
 i3status-rust
 iagno
@@ -133,6 +135,8 @@ openssh
 orca
 p7zip
 pavucontrol
+perl-anyevent-i3
+perl-json-xs
 polari
 powerline
 powerline-fonts
@@ -185,5 +189,6 @@ xdg-user-dirs-gtk
 xdg-utils
 xfsprogs
 xorg-xwayland
+xss-lock
 yelp
 zram-generator
